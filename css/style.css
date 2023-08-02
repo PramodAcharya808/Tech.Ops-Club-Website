@@ -1,0 +1,30 @@
+/* 
+TABLE OF CONTENT
+1. General
+2. Custom CSS
+3. Sections
+ */
+
+/* 1. General */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 2. Custom CSS */
+:root {
+    /* Background Color */
+    --primary-bg-color: ;
+    --secondary-bg-color: ;
+    /* Text Color */
+    --primary-text-color: ;
+    --secondary-text-color: ;
+    /* Font Family */
+    --primary-font: ;
+    --secondary-font: ;
+}
