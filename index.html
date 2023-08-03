@@ -20,9 +20,37 @@
     <link rel="stylesheet" href="css/mobile-style.css">
 </head>
 
-<body>
-
-
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="90">
+    <!-- NavBar section -->
+    <header class="navbar-wrapper">
+        <nav class="navbar navbar-expand-lg container">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="Error" class="img-fluid">
+                </a>
+                <!-- Dropdown for mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- Custome dropdown icon FA -->
+                    <i class="fa-solid fa-bars-staggered "></i>
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                </button>
+                <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <!-- Bootstrap JS & Popper -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
