@@ -23,12 +23,12 @@ a {
 /* 2. Custom CSS */
 :root {
     --primary-color: #AAAAAA;
-    --secondary-color: ;
+    --secondary-color: #646464;
     /* Background Color */
     --bg-white: #ffffff;
     --bg-black: #000000;
     /* Text Color */
-    --primary-text: #009846;
+    --primary-text: #24ad64;
     --secondary-text: #2B2A29;
     /* Font Family */
     --primary-font: 'Rubik', 'sans-serif';
@@ -37,7 +37,7 @@ a {
 
 /* 3. NavBar */
 
-.navbar-wrapper .navbar-brand{
+.navbar-wrapper .navbar-brand {
     height: auto;
     max-width: 10rem;
 }
@@ -47,3 +47,36 @@ a {
     box-shadow: none;
 }
 
+.navbar-wrapper .navbar-content .nav-item a {
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 0.985rem;
+    color: var(--secondary-text);
+    font-family: var(--primary-font);
+    font-weight: 500;
+}
+
+.navbar-wrapper .navbar-content .nav-item a.active,
+.navbar-wrapper .navbar-content .nav-item a:hover {
+    color: var(--bg-white);
+}
+
+.navbar-content .dropdown-menu li a:active,
+.navbar-content .dropdown-menu li a:hover {
+    display: inline;
+    color: var(--bg-white) !important;
+    background-color: var(--secondary-color) !important;
+}
+
+.navbar-wrapper .navbar {
+    background-color: var(--primary-color);
+    height: 3.875rem;
+}
+
+.navbar-wrapper .navbar .navbar-brand {
+    margin-left: 2rem;
+}
+
+.navbar-wrapper .navbar .navbar-content{
+    margin-right: 5rem;
+}

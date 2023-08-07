@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 2. Custom CSS */
+:root {
+    --primary-color: #AAAAAA;
+    --secondary-color: #646464;
+    /* Background Color */
+    --bg-white: #ffffff;
+    --bg-black: #000000;
+    /* Text Color */
+    --primary-text: #24ad64;
+    --secondary-text: #2B2A29;
+    /* Font Family */
+    --primary-font: 'Rubik', 'sans-serif';
+    --secondary-font: 'Lato';
+}
+
+
+/* Large Phone Media */
+@media only screen and (max-width: 426px) {
+    .navbar-wrapper .collapse {
+        background-color: white;
+    }
+
+    .navbar-wrapper .navbar-content .nav-item a.active,
+    .navbar-wrapper .navbar-content .nav-item a:hover {
+        color: var(--primary-text);
+    }
+
+}
