@@ -35,7 +35,6 @@ a {
     --primary-font: 'Rubik', 'sans-serif';
     --secondary-font: 'Lato';
     --gradient: linear-gradient(to right, #1ebc9f 0%, #bbbbbb 100%), radial-gradient(circle at top left, #0055ff, #854fee);
-
 }
 
 /* 3. NavBar */
@@ -64,7 +63,7 @@ a {
     color: var(--primary-text);
 }
 
-.navbar-content .dropdown-menu li a:active,
+.navbar-content .dropdown-menu li a.active,
 .navbar-content .dropdown-menu li a:hover {
     width: auto;
     color: var(--primary-text) !important;
@@ -112,7 +111,8 @@ a {
 }
 
 .home-wrapper #main-bg #tech-ops-logo {
-    animation: club-logo-zoom-in 1s ease-in-out 1s 1 normal;
+    /* transform: scale(1); */
+    animation: club-logo-zoom-in  ease-in-out 1s 1 normal;
 }
 
 
@@ -122,7 +122,7 @@ a {
     }
 
     to {
-        width: 100%
+        width: 100%;
     }
 }
 
@@ -141,12 +141,13 @@ a {
 .home-wrapper .dept-text h2 {
     text-transform: uppercase;
     font-family: var(--primary-font);
+    border-right: .15em solid orange;
     overflow: hidden;
-    border-right: .35rem solid orange;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .15em;
     animation:
         typing 3.5s steps(40, end),
         blink-caret .75s step-end infinite;
+    text-shadow: 10px 5px 5px var(--bg-grey-opc);
 }
