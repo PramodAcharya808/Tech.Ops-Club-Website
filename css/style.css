@@ -9,6 +9,8 @@ TABLE OF CONTENT
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
 
 * {
     box-sizing: border-box;
@@ -34,6 +36,7 @@ a {
     /* Font Family */
     --primary-font: 'Rubik', 'sans-serif';
     --secondary-font: 'Lato';
+    --bold-font:'Lilita One';
     --gradient: linear-gradient(to right, #1ebc9f 0%, #bbbbbb 100%), radial-gradient(circle at top left, #0055ff, #854fee);
 }
 
@@ -85,8 +88,7 @@ a {
 }
 
 /* Banner Section */
-.home-wrapper{
-
+.home-wrapper {
     background-image: url(../img/cover-bg.jpg);
 }
 
@@ -115,10 +117,10 @@ a {
 
 .home-wrapper #main-bg #tech-ops-logo {
     /* transform: scale(1); */
-    animation: club-logo-zoom-in  ease-in-out 1s 1 normal;
+    animation: club-logo-zoom-in ease-in-out 1s 1 normal;
 }
 
-
+/* {
 @keyframes typing {
     from {
         width: 0
@@ -143,14 +145,22 @@ a {
 
 .home-wrapper .dept-text h2 {
     text-transform: uppercase;
+    font-weight: 400;
     font-family: var(--primary-font);
     border-right: .35rem solid orange;
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
-    letter-spacing: .15em;
+    letter-spacing: .215rem;
     animation:
         typing 3.5s steps(40, end),
         blink-caret .75s step-end infinite;
     text-shadow: 10px 5px 5px var(--bg-grey-opc);
+}
+} */
+
+.home-wrapper #main-bg .dept-text span {
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+    text-align: left;
 }

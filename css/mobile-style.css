@@ -36,15 +36,6 @@ a {
     }
 
     .home-wrapper .logo-content img {
-        height: 7.5rem !important;
-    }
-
-    .home-wrapper .dept-text h2 {
-        text-transform: uppercase;
-        font-family: var(--primary-font);
-        border-right: .2315rem solid orange !important;
-        white-space: nowrap;
-        letter-spacing: .15rem;
-        font-size: large;
+        height: 5rem !important;
     }
 }
