@@ -87,9 +87,66 @@ a {
 
 /* Banner Section */
 
-.home-wrapper #main-bg{
+.home-wrapper #main-bg {
+    display: flex;
     background-image: url(../img/cover-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
     height: 70vh;
+}
+
+@keyframes club-logo-zoom-in {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1.25);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.home-wrapper #main-bg #tech-ops-logo {
+    animation: club-logo-zoom-in 1s ease-in-out 1s 1 normal;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+.home-wrapper .dept-text h2 {
+    text-transform: uppercase;
+    font-family: var(--primary-font);
+    overflow: hidden;
+    border-right: .35rem solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
 }
