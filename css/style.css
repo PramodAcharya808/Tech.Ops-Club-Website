@@ -40,6 +40,64 @@ a {
     --gradient: linear-gradient(to right, #1ebc9f 0%, #bbbbbb 100%), radial-gradient(circle at top left, #0055ff, #854fee);
 }
 
+
+a {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-grey);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+}
+
+.main-btn {
+    display: inline-block;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 2.875rem;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 0.3125rem;
+    box-shadow: 0 0.625rem 1.875rem rgba(85, 225, 129, 0.3);
+    border: double 0.125rem transparent;
+    padding: 0 0.625rem;
+    transition: all .3s ease-in-out;
+}
+
+.primary-btn {
+    background-image: var(--gradient);
+    color: var(--bg-white);
+}
+
+.primary-btn:hover {
+    border-color: var(--secondary-color);
+    background: var(--bg-white);
+    color: var(--secondary-text);
+    box-shadow: none;
+}
+
+.secondary-btn {
+    background-image: var(--bg-white);
+    color: var(--secondary-text);
+    border-color: var(--secondary-color);
+}
+
+.secondary-btn:hover {
+    background: var(--gradient);
+    color: var(--bg-white);
+    box-shadow: none;
+}
+
+
 /* 3. NavBar */
 
 .navbar-wrapper .navbar-brand {
@@ -163,4 +221,12 @@ a {
     font-family: var(--primary-font);
     text-transform: uppercase;
     text-align: left;
+}
+
+@keyframes join-btn-zoom-in {
+    from{transform: scale(1);}
+    to{transform: scale(1.1);}
+}
+.home-wrapper .join-btn{
+    animation: join-btn-zoom-in ease-in-out 0.5s infinite alternate;
 }
