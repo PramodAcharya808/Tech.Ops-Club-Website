@@ -85,10 +85,13 @@ a {
 }
 
 /* Banner Section */
+.home-wrapper{
+
+    background-image: url(../img/cover-bg.jpg);
+}
 
 .home-wrapper #main-bg {
     display: flex;
-    background-image: url(../img/cover-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
@@ -141,7 +144,7 @@ a {
 .home-wrapper .dept-text h2 {
     text-transform: uppercase;
     font-family: var(--primary-font);
-    border-right: .15em solid orange;
+    border-right: .35rem solid orange;
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
