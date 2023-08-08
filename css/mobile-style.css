@@ -30,6 +30,7 @@ a {
     body{
         width: 100%;
     }
+
     .navbar-wrapper .navbar-content .nav-item a.active,
     .navbar-wrapper .navbar-content .nav-item a:hover {
         color: var(--primary-text);
@@ -38,4 +39,6 @@ a {
     .home-wrapper .logo-content img {
         height: 5rem !important;
     }
+
+
 }
