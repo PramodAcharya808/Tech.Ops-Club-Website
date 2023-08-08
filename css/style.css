@@ -27,12 +27,15 @@ a {
     /* Background Color */
     --bg-white: #ffffff;
     --bg-black: #000000;
+    --bg-grey-opc: #787878a6;
     /* Text Color */
     --primary-text: #206A5D;
     --secondary-text: #2B2A29;
     /* Font Family */
     --primary-font: 'Rubik', 'sans-serif';
     --secondary-font: 'Lato';
+    --gradient: linear-gradient(to right, #1ebc9f 0%, #bbbbbb 100%), radial-gradient(circle at top left, #0055ff, #854fee);
+
 }
 
 /* 3. NavBar */
@@ -58,18 +61,22 @@ a {
 
 .navbar-wrapper .navbar-content .nav-item a.active,
 .navbar-wrapper .navbar-content .nav-item a:hover {
-    color: var(--primary-text);
+    border-radius: 1rem;
+    background-color: var(--bg-grey-opc);
+    color: white;
+    /* color: var(--primary-text); */
 }
 
 .navbar-content .dropdown-menu li a:active,
 .navbar-content .dropdown-menu li a:hover {
-    display: inline;
+    width: auto;
     color: var(--primary-text) !important;
     background-color: var(--primary-color) !important;
 }
 
 .navbar-wrapper .navbar {
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
+    background-image: var(--gradient);
     height: 3.875rem;
 }
 
@@ -77,6 +84,6 @@ a {
     margin-left: 2rem;
 }
 
-.navbar-wrapper .navbar .navbar-content{
+.navbar-wrapper .navbar .navbar-content {
     margin-right: 5rem;
 }
