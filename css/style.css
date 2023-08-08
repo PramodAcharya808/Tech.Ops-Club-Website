@@ -97,6 +97,10 @@ a {
     box-shadow: none;
 }
 
+section {
+    padding: 5rem 0;
+}
+
 
 /* 3. NavBar */
 
@@ -131,10 +135,8 @@ a {
     background-color: var(--primary-color) !important;
 }
 
-.navbar-wrapper .navbar {
-    /* background-color: var(--primary-color); */
+.navbar-wrapper{
     background-image: var(--gradient);
-    height: 3.875rem;
 }
 
 .navbar-wrapper .navbar .navbar-brand {
