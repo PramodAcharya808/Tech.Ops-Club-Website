@@ -10,13 +10,13 @@ a {
 
 /* 2. Custom CSS */
 :root {
-    --primary-color: #AAAAAA;
+    --primary-color: #EBECF1;
     --secondary-color: #646464;
     /* Background Color */
     --bg-white: #ffffff;
     --bg-black: #000000;
     /* Text Color */
-    --primary-text: #24ad64;
+    --primary-text: #206A5D;
     --secondary-text: #2B2A29;
     /* Font Family */
     --primary-font: 'Rubik', 'sans-serif';
