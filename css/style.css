@@ -86,3 +86,10 @@ a {
 }
 
 /* Banner Section */
+
+.home-wrapper #main-bg{
+    background-image: url(../img/cover-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
