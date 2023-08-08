@@ -59,12 +59,9 @@ a {
     font-weight: 500;
 }
 
-.navbar-wrapper .navbar-content .nav-item a.active,
-.navbar-wrapper .navbar-content .nav-item a:hover {
-    border-radius: 1rem;
-    background-color: var(--bg-grey-opc);
-    color: white;
-    /* color: var(--primary-text); */
+.navbar-wrapper .navbar-content .nav-item #nav-bar.active,
+.navbar-wrapper .navbar-content .nav-item #nav-bar:hover {
+    color: var(--primary-text);
 }
 
 .navbar-content .dropdown-menu li a:active,
@@ -87,3 +84,5 @@ a {
 .navbar-wrapper .navbar .navbar-content {
     margin-right: 5rem;
 }
+
+/* Banner Section */
