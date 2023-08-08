@@ -36,7 +36,7 @@ a {
     /* Font Family */
     --primary-font: 'Rubik', 'sans-serif';
     --secondary-font: 'Lato';
-    --bold-font:'Lilita One';
+    --bold-font: 'Lilita One';
     --gradient: linear-gradient(to right, #1ebc9f 0%, #bbbbbb 100%), radial-gradient(circle at top left, #0055ff, #854fee);
 }
 
@@ -135,7 +135,7 @@ section {
     background-color: var(--primary-color) !important;
 }
 
-.navbar-wrapper{
+.navbar-wrapper {
     background-image: var(--gradient);
 }
 
@@ -226,11 +226,44 @@ section {
 }
 
 @keyframes join-btn-zoom-in {
-    from{transform: scale(1);}
-    to{transform: scale(1.1);}
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
-.home-wrapper .join-btn{
+
+.home-wrapper .join-btn {
     animation: join-btn-zoom-in ease-in-out 0.5s infinite alternate;
 }
 
 /* Playground Section */
+.events-header .intro {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 1.256rem;
+}
+
+.events-header h1 {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.playground-wrapper .recurring-events #friday {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.playground-wrapper .recurring-events {
+    margin-top: 2rem;
+    font-family: var(--primary-font);
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem var(--bg-grey-opc);
+}
+
+.playground-wrapper .recurring-events .content{
+    padding: 2rem;
+}
