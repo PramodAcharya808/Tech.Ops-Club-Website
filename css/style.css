@@ -306,6 +306,16 @@ section {
     color: rgb(55, 55, 55);
 }
 
+.footer-wrapper #pramod{
+    margin-top: 2rem;
+    font-family: var(--bold-font);
+}
+
+.footer-wrapper #pramod span{
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+}
+
 .footer-wrapper .footer-content #copy{
     font-family: var(--secondary-font);
     font-size: 1rem;
