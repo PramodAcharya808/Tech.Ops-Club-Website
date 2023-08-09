@@ -6,7 +6,7 @@ TABLE OF CONTENT
 4. Banner section
 5. Playground section
 6. TechNews section
-
+7. Footer section
  */
 
 /* 1. General */
@@ -33,6 +33,7 @@ a {
     /* Background Color */
     --bg-white: #ffffff;
     --bg-black: #000000;
+    --bg-grey: #606060;
     --bg-grey-opc: #787878a6;
     /* Text Color */
     --primary-text: #206A5D;
@@ -102,7 +103,7 @@ a {
 }
 
 section {
-    padding: 5rem 0;
+    padding: 5rem;
 }
 
 
@@ -263,18 +264,44 @@ section {
     margin: 0;
 }
 
-.playground-wrapper .recurring-events {
-    margin-top: 2rem;
+.playground-wrapper .recurring-events .content {
+    padding: 2rem;
     font-family: var(--primary-font);
     box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem var(--bg-grey-opc);
 }
 
-.playground-wrapper .recurring-events .content {
+.playground-wrapper .recurring-events .content #info {
     margin: 0;
-
-    padding: 2rem;
 }
 
-.playground-wrapper .recurring-events .content #info{
-    margin: 0;
+/* Technews section */
+
+.technews-wrapper #tech-header{
+    font-family: var(--bold-font);
+    text-decoration: underline;
+    text-shadow: 0.5rem -.5rem 0.5rem var(--bg-grey-opc);
+}
+
+/* Footer section */
+.footer-wrapper{
+    width: 100%;
+    height: 10rem;
+    background-color: var(--bg-grey-opc);
+}
+
+.footer-wrapper .footer-content img{
+    height: 2rem;
+}
+
+.footer-wrapper .footer-content #dept{
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(55, 55, 55);
+}
+
+.footer-wrapper .footer-content #copy{
+    font-family: var(--secondary-font);
+    font-size: 1rem;
 }
