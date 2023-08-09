@@ -282,6 +282,11 @@ section {
     text-shadow: 0.5rem -.5rem 0.5rem var(--bg-grey-opc);
 }
 
+.technews-wrapper .tech-section .card-holder .mycard{
+    display: flex;
+    justify-content: center;
+}
+
 /* Footer section */
 .footer-wrapper{
     width: 100%;
