@@ -2,7 +2,11 @@
 TABLE OF CONTENT
 1. General
 2. Custom CSS
-3. Sections
+3. Navbar section
+4. Banner section
+5. Playground section
+6. TechNews section
+
  */
 
 /* 1. General */
@@ -241,9 +245,9 @@ section {
 
 /* Playground Section */
 .events-header .intro {
-    font-family: var(--secondary-font);
-    font-weight: 400;
-    font-size: 1.256rem;
+    font-family: var(--primary-font);
+    font-weight: 100;
+    font-size: 1.85rem;
 }
 
 .events-header h1 {
@@ -256,6 +260,7 @@ section {
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 1.5rem;
+    margin: 0;
 }
 
 .playground-wrapper .recurring-events {
@@ -264,6 +269,12 @@ section {
     box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem var(--bg-grey-opc);
 }
 
-.playground-wrapper .recurring-events .content{
+.playground-wrapper .recurring-events .content {
+    margin: 0;
+
     padding: 2rem;
+}
+
+.playground-wrapper .recurring-events .content #info{
+    margin: 0;
 }
