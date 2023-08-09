@@ -103,7 +103,7 @@ a {
 }
 
 section {
-    padding: 5rem;
+    padding: 5rem 0;
 }
 
 
@@ -304,4 +304,15 @@ section {
 .footer-wrapper .footer-content #copy{
     font-family: var(--secondary-font);
     font-size: 1rem;
+}
+
+.footer-wrapper .connect-us p{
+    font-family: var(--primary-font);
+}
+
+.footer-wrapper .connect-us .icons a{
+    color: rgb(55, 55, 55);
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    text-shadow: 0.5rem 0.5rem 0.5rem var(--bg-grey);
 }

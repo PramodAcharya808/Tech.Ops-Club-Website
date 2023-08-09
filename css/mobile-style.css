@@ -27,10 +27,11 @@ a {
 /* Large Phone Media */
 @media only screen and (max-width: 426px) {
 
-    body{
+    body {
         width: 100%;
     }
 
+    /* navbar section */
     .navbar-wrapper .navbar-content .nav-item a.active,
     .navbar-wrapper .navbar-content .nav-item a:hover {
         color: var(--primary-text);
@@ -40,5 +41,6 @@ a {
         height: 5rem !important;
     }
 
+    /* footer section */
 
 }
