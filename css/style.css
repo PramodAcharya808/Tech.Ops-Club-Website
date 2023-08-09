@@ -318,6 +318,7 @@ section {
 
 .footer-wrapper .footer-content #copy{
     font-family: var(--secondary-font);
+    font-weight: 300;
     font-size: 1rem;
 }
 
