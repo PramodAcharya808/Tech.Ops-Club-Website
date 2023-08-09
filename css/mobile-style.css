@@ -42,5 +42,7 @@ a {
     }
 
     /* footer section */
-
+    .footer-wrapper{
+        height: auto !important;
+    }
 }

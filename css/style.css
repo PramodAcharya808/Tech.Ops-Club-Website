@@ -285,7 +285,7 @@ section {
 /* Footer section */
 .footer-wrapper{
     width: 100%;
-    height: 10rem;
+    height: auto;
     background-color: var(--bg-grey-opc);
 }
 
